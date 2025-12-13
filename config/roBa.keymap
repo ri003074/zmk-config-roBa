@@ -84,8 +84,6 @@
 &kp Z       &kp X           &kp C    &kp V                    &kp B      &kp COLON          &kp LC(TAB)       &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
 &kp ESCAPE  &kp LEFT_SHIFT  &kp TAB  &mt LANGUAGE_2 LEFT_ALT  &kp LCTRL  &kp SPACE          &lt 2 LANGUAGE_1  &lt 1 ENTER                             &kp BACKSPACE
             >;
-
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
         };
 
         FUNCTION {
