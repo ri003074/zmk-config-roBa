@@ -90,17 +90,17 @@
             bindings = <
 &kp NUMBER_1  &kp NUMBER_2    &kp NUMBER_3    &kp NUMBER_4  &kp N5                      &kp NUMBER_6  &kp N7     &kp N8            &kp N9             &kp N0
 &trans        &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT     &trans  &trans      &none   &kp MINUS     &kp EQUAL  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans        &trans          &kp DOWN_ARROW  &trans        &trans  &trans      &none   &trans        &trans     &trans            &trans             &kp F11
-&trans        &trans          &trans          &trans        &trans  &trans      &trans  &trans                                                        &kp F12
+&trans        &trans          &kp DOWN_ARROW  &trans        &trans  &trans      &none   &trans        &trans     &trans            &trans             &none
+&trans        &trans          &trans          &trans        &trans  &trans      &trans  &trans                                                        &none
             >;
         };
 
         NUM {
             bindings = <
-&none  &none  &none  &kp KP_NUMBER_9  &kp PLUS                                                   &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&none  &none  &none  &kp KP_NUMBER_6  &kp ASTERISK  &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
-&none  &none  &none  &kp KP_NUMBER_3  &kp PERIOD    &kp EQUAL                    &none           &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
-&none  &none  &none  &none            &none         &none                        &none           &none                                                                      &kp PIPE
+&none  &none  &none  &none  &none                    &kp CARET         &kp AMPERSAND      &kp TILDE       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
+&none  &none  &none  &none  &none  &none      &none  &kp EXCLAMATION   &kp AT_SIGN        &kp HASH        &kp DOLLAR            &kp PERCENT
+&none  &none  &none  &none  &none  &none      &none  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE       &kp BACKSLASH
+&none  &none  &none  &none  &none  &none      &none  &none                                                                      &kp PIPE
             >;
         };
 
