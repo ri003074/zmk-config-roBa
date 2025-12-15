@@ -39,9 +39,9 @@
             key-positions = <9 8>;
         };
 
-        muhennkann {
-            bindings = <&to_layer_0 INT_MUHENKAN>;
-            key-positions = <11 10>;
+        tab {
+            bindings = <&kp TAB>;
+            key-positions = <22 23>;
         };
 
         double_quotation {
