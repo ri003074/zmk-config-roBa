@@ -29,14 +29,14 @@
     combos {
         compatible = "zmk,combos";
 
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <11 12>;
+        esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <0 1>;
         };
 
-        shift_tab {
-            bindings = <&kp LS(TAB)>;
-            key-positions = <12 13>;
+        bs {
+            bindings = <&kp LS(BACKSPACE)>;
+            key-positions = <9 8>;
         };
 
         muhennkann {
