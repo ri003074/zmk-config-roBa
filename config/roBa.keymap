@@ -29,19 +29,9 @@
     combos {
         compatible = "zmk,combos";
 
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-
         bs {
             bindings = <&kp LS(BACKSPACE)>;
             key-positions = <9 8>;
-        };
-
-        tab {
-            bindings = <&kp TAB>;
-            key-positions = <22 23>;
         };
 
         double_quotation {
