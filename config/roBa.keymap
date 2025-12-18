@@ -43,16 +43,6 @@
             bindings = <&kp ESCAPE>;
             key-positions = <0 1>;
         };
-
-        lang1 {
-            bindings = <&kp LANGUAGE_1>;
-            key-positions = <10 11>;
-        };
-
-        lang2 {
-            bindings = <&kp LANGUAGE_2>;
-            key-positions = <22 23>;
-        };
     };
 
     macros {
@@ -80,10 +70,10 @@
 
         default_layer {
             bindings = <
-&kp Q       &kp W         &kp E    &kp R           &kp T                                  &kp Y             &kp U  &kp I      &kp O    &kp P
-&kp A       &kp S         &kp D    &kp F           &kp G      &mo 5          &kp LC(TAB)  &kp H             &kp J  &kp K      &kp L    &kp SEMI
-&kp Z       &kp X         &kp C    &kp V           &kp B      &mo 2          &kp LS(F10)  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp ESCAPE  &kp LEFT_ALT  &kp TAB  &kp LEFT_SHIFT  &kp LCTRL  &kp SPACE      &kp ENTER    &lt 1 LANGUAGE_1                             &none
+&kp Q  &kp W         &kp E    &kp R                      &kp T                                  &kp Y             &kp U  &kp I      &kp O    &kp P
+&kp A  &kp S         &kp D    &kp F                      &kp G      &mo 5          &kp LC(TAB)  &kp H             &kp J  &kp K      &kp L    &kp SEMI
+&kp Z  &kp X         &kp C    &kp V                      &kp B      &mo 2          &kp LS(F10)  &kp N             &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&none  &kp LEFT_ALT  &kp TAB  &mt LEFT_SHIFT LANGUAGE_2  &kp LCTRL  &kp SPACE      &kp ENTER    &lt 1 LANGUAGE_1                             &none
             >;
         };
 
