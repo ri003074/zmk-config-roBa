@@ -95,5 +95,14 @@
 &bt BT_SEL 0  &bt BT_SEL 1  &none   &none   &none   &none      &none  &none                                   &none
             >;
         };
+
+        layer_3 {
+            bindings = <
+&none  &none  &none  &none  &none                    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none                       &none
+            >;
+        };
     };
 };
