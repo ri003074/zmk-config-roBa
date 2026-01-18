@@ -22,7 +22,14 @@
 };
 
 / {
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        studio {
+            bindings = <&studio_unlock>;
+            key-positions = <9 34>;
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
