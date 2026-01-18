@@ -22,24 +22,7 @@
 };
 
 / {
-    combos {
-        compatible = "zmk,combos";
-
-        bs {
-            bindings = <&kp LS(BACKSPACE)>;
-            key-positions = <9 8>;
-        };
-
-        double_quotation {
-            bindings = <&kp SQT>;
-            key-positions = <20 21>;
-        };
-
-        esc {
-            bindings = <&kp ESCAPE>;
-            key-positions = <0 1>;
-        };
-    };
+    combos { compatible = "zmk,combos"; };
 
     keymap {
         compatible = "zmk,keymap";
