@@ -81,19 +81,19 @@
 
         layer_5 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&none  &none  &none  &none  &none                    &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none                       &none
             >;
         };
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &bt BT_SEL 0  &bt BT_SEL 1  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans        &trans        &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                      &bt BT_CLR_ALL
+&none  &none  &none  &none  &none                    &bt BT_SEL 0  &bt BT_SEL 1  &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none         &none         &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none         &none         &none  &none  &none
+&none  &none  &none  &none  &none  &none      &none  &none                                     &bt BT_CLR_ALL
             >;
         };
     };
