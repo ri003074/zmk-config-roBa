@@ -15,6 +15,15 @@
         };
     };
 
+    macros {
+        gd: gd {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp D>;
+            label = "GD";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
