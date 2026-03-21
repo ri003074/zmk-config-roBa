@@ -29,6 +29,13 @@
             bindings = <&kp G &kp T>;
             label = "GT";
         };
+
+        gT: gT {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp LS(T)>;
+            label = "GT";
+        };
     };
 
     keymap {
@@ -65,7 +72,7 @@
             bindings = <
 &kp F1  &kp F2    &kp F3         &kp F4   &kp F5                              &kp F6                 &kp F7     &kp F8  &kp F9  &kp F10
 &none   &kp HOME  &kp PAGE_UP    &kp END  &none   &none                &none  &kp LC(RIGHT_BRACKET)  &gd        &gt     &none   &kp RIGHT_CONTROL
-&none   &none     &kp PAGE_DOWN  &none    &none   &kp PRINTSCREEN      &none  &kp RC(T)              &kp LC(O)  &none   &none   &kp RCTRL
+&none   &none     &kp PAGE_DOWN  &none    &none   &kp PRINTSCREEN      &none  &kp RC(T)              &kp LC(O)  &gT     &none   &kp RCTRL
 &none   &none     &none          &none    &none   &none                &none  &none                                             &none
             >;
         };
