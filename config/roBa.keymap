@@ -30,11 +30,11 @@
             label = "GT";
         };
 
-        gT: gT {
+        gT: glt {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp G &kp LS(T)>;
-            label = "gT";
+            label = "glt";
         };
     };
 
