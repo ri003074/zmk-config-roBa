@@ -22,6 +22,13 @@
             bindings = <&kp G &kp D>;
             label = "GD";
         };
+
+        gt: gt {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp T>;
+            label = "GT";
+        };
     };
 
     keymap {
